@@ -1,4 +1,4 @@
-﻿package away3d.controllers
+package away3d.controllers
 {
 	import away3d.containers.*;
 	import away3d.entities.*;
