@@ -110,12 +110,12 @@ package away3d.cameras.lenses
 		 * The handedness of the coordinate system projection.
 		 * The default is COORDINATE_SYSTEM_LEFT_HANDED.
 		 */
-		public function get coordinateSystem() : int
+		public function get coordinateSystem():int
 		{
 			return _coordinateSystem;
 		}
 
-		public function set coordinateSystem(value : int) : void
+		public function set coordinateSystem(value:int):void
 		{
 			if (value == _coordinateSystem) return;
 			_coordinateSystem = value;
